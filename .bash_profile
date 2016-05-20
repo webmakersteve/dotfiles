@@ -1,6 +1,12 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 
+# Tell ls to be colourful
+# export CLICOLOR=1
+
+# Tell grep to highlight matches
+export GREP_OPTIONS='--color=auto'
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
